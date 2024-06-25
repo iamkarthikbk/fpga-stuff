@@ -10,7 +10,7 @@ style: |
   section {
     text-align: left;
     font-family: monospace;
-    font-size: 18pt;
+    font-size: 16pt;
   }
   h1 {
     text-align: left;
@@ -27,11 +27,34 @@ style: |
     font-size: 20pt;
     font-family: monospace
   }
-  
+  h4 {
+    text-align: left;
+    font-size: 16pt;
+    font-family: monospace;
+    color: magenta;
+  }
+  table {
+    float: left;
+    margin: 0em;
+  }
 ---
 
 # How to use an FPGA
-A simple demonstration + discussion
-You're expected to follow along.
+A simple demonstration + discussion. <br>
 
 ---
+
+### The Spartan-7 XC7S50 <br> on an AMD Urbana
+
+(xc7s50csga324-1)
+
+![bg left:45%](images/urbana-overview.png)
+
+Composition:
+    - Logic: 52160
+    - DSP: 120
+    - Memory: 2700
+    - I/O: 250
+
+#### are these slices or cells ?
+
